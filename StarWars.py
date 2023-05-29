@@ -7,7 +7,7 @@ application = Flask(__name__)
 
 @application.route("/jedi") 
 def index():
-    return render_template("StarWars.html")
+    return render_template("index.html")
 
 
 url = "https://swapi.dev/api/"
